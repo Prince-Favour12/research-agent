@@ -14,6 +14,7 @@ if "messages" not in st.session_state:
 
 
 def get_ai_response(user_text: str) -> str:
+    """AI response logic. Replace this with an actual API call to your AI model."""
     # Placeholder response logic. Replace this with a real AI API call if available.
     return run(user_text)
 
